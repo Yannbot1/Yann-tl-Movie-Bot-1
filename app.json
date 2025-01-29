@@ -1,6 +1,6 @@
 {
-    "name": "IMDb-Movie-Bot",
-    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "name": "yann-bot",
+    "description": "ce bot est pour jachii de dieu il est une intelligence artificielle développer par yann bot",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -19,7 +19,7 @@
     "repository": "https://github.com/JOSProjects/IMDb-Movie-Bot",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "7675002602:AAEyW_J6wQQMoCpzEKQY96KuGTg8D_o_wOc",
             "required": true
         },
         "API_ID": {
@@ -31,11 +31,11 @@
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": "@Jachiiii_bot",
             "required": false
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "description": "@jachiiuser",
             "required": true
         },
         "PICS": {
@@ -47,7 +47,7 @@
             "required": true
         },
         "AUTH_USERS": {
-            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "description": "@jachiiuser"
             "required": false
         },
         "AUTH_CHANNEL": {
